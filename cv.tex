@@ -1,0 +1,190 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+	\vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+\item\small{
+		\textbf{#1}{: #2 \vspace{-2pt}}
+	}
+}
+
+\newcommand{\resumeSubheading}[4]{
+\vspace{-1pt}\item
+	\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+		\textbf{#1} & #2 \\
+		\textit{\small#3} & \textit{\small #4} \\
+	\end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+%TODO: fix speling errors
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+	\textbf{\href{http://web.itu.edu.tr/kilincmes/}{\Large Mesih Veysi Kılınç}} & Email : \href{mailto:mesihkilinc@gmail.com}{mesihkilinc@gmail.com}\\
+	\href{http://web.itu.edu.tr/kilincmes/}{http://web.itu.edu.tr/kilincmes} & Mobile : +90-543-864-2148 \\
+	\textit{\small Turkish Nationality - Male - Married - Age 26}
+\end{tabular*} \vspace{-15pt}
+
+\section{\href{https://www.google.com/search?q=mesih+site\%3Alkml.org}{Open Source Contributions}}
+\resumeItemListStart
+    \resumeItem{Linux Kernel Contributions - Patchsets}
+    {\begin{itemize} \vspace{-5pt}
+	    \item \href{https://lkml.org/lkml/2018/12/2/202}{\textbf{Applied:} initial support for "suniv" Allwinner new ARM9 SoC}
+	    \item \href{https://lkml.org/lkml/2018/12/2/259}{Add support for DMA and audio codec of F1C100s}
+	    \item \href{https://lkml.org/lkml/2019/2/11/131}{Timer \& SPI support for Allwinner suniv F1C100s}
+    \end{itemize}}
+\resumeItemListEnd \vspace{-10pt}
+
+\section{Technicall Skills Summary}
+\parbox{.60\linewidth}{
+	\centering
+\begin{tabular*}{0.30\textwidth}{ @{\extracolsep{\fill} } l l l l }
+	\multicolumn{2}{l}{\textbf{Programming Tools \& Languages }}\hspace{15pt} & \multicolumn{2}{l}{\textbf{Operating Systems \& Software}} \\
+	C/C++ & 5 Year  & Linux \& GNU Utils\hspace{8pt} & 3 Year \\
+	QT & 3 Year & Linux Kernel & 2 Year \\
+	GStreamer \hspace{8pt} & 2 Year & Yocto & 2 Year \\
+	Bash & 3 Year  & Kicad & 1 Year \\
+	\\
+\end{tabular*}\vspace{-30pt}
+}
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Gebze Technical University}{Kocaeli, Turkey}
+      {Master of Science in Computer Science;  GPA: NA}{Feb. 2018 -- Present}
+      \resumeItemListStart
+	\resumeItem{Scientific preperation}{Succesfully finished 5 course under
+		    scientific preperation to Computer Science which is:
+		    \textit{Object Orianted Programming, Data Structures,
+		    Operating Systems, Computer Organization, Discrate Mathmatics}} 
+      \resumeItemListEnd
+    \resumeSubheading
+      {Istanbul Technical University}{Istanbul, Turkey}
+      {Bachelor of Engineering in Electronics and Communication;  GPA: 2.71/4.00}{Sep. 2011 -- Feb. 2016}
+  \resumeSubHeadingListEnd
+
+
+  %-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Gebze Technical University}{Kocaeli, Turkey}
+      {Research Assistant}{Feb 2018 - Present}
+      \resumeItemListStart
+	\resumeItem{IEEE 802.11p Research}
+	  {
+		  Researched literature about vehicle to vehicle and vehicle to
+		  infrastructure communication, targeting IEEE 802.11p. 
+		  }
+	\resumeItem{Swarm Unmanned Aerial Vehicle}
+	  {
+		  Designed hardware and developed software for a UAV telemetry modem.
+			  Designed hardware and developed software for a RSSI Sensor
+			  which can measure strength of RF signals in specified band.
+		  }
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Otokar}{Sakarya, Turkey}
+      {Software Engineer}{August 2016 - Feb 2018}
+      \resumeItemListStart
+	\resumeItem{Border Surveillance and Reconnaissance Vehicle}
+	  {\begin{itemize}
+		  \item Developed GUI for border reconnaissance \& surveillance armored vehicle (C++, Qt, Yocto) 
+		  \item Developed radar management software. (C++, Hierarchical State Machines) 
+	  \end{itemize}}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {CTech}{Istanbul, Turkey}
+      {Hardware Engineer}{July 2015 - August 2016}
+      \resumeItemListStart
+	\resumeItem{UAV Modem}
+	  {\begin{itemize}
+		  \item Design and code software for UAV Modem (C++ Embedded Linux)
+		  \item Design and code device drivers under linux for FPGA blocks (Xilinx Zynq)
+		  \item Developed MCU based control hardware and software for a RF front-end hardware.
+		  \item Took Linux training from Nazim Koc (uCanLinux.com). Gained knowledge on u-boot, linux kernel, busybox compilation and building rootfs.
+	  \end{itemize}}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+  %-----------PROJECTS-----------------
+\section{Major Projects}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Real-time Video Compression Device}
+	{Coded software for a H264 video compression device.
+	It is based on IMX6 SoC and also uses real-time patched Linux and GStreamer.
+	Build the required device tree.}
+    \resumeSubItem{Voice Transceiver Device}
+	  {A device capable of recording and sending voice at ISM band. 
+	  It is an embedded Linux system that utilizes Opus codec. 
+	  Designed and produced the hardware and coded necessary \textbf{ALSA SoC driver, RFIC device driver} and user space software.
+	  Build the required device tree.}
+    \resumeSubItem{Cansat Competition, Abilene TX}
+	  {Designed hardware and coded software according to requirements of the competition. It uses Cortex-M based MCU.}
+    \resumeSubItem{Turksat 3USAT Cube Satellite, ITU}
+	{Coded software for on-board computer of the satellite.}
+  \resumeSubHeadingListEnd
+
+  %-------------------------------------------
+\end{document}
