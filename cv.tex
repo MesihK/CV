@@ -64,7 +64,7 @@
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-6pt}}
 
 %-------------------------------------------
 %%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -88,7 +88,7 @@
 	    \item \href{https://lkml.org/lkml/2018/12/2/259}{Add support for DMA and audio codec of F1C100s}
 	    \item \href{https://lkml.org/lkml/2019/2/11/131}{Timer \& SPI support for Allwinner suniv F1C100s}
     \end{itemize}}
-\resumeItemListEnd \vspace{-10pt}
+\resumeItemListEnd \vspace{-13pt}
 
 \section{Technicall Skills Summary}
 \parbox{.60\linewidth}{
@@ -117,7 +117,7 @@
     \resumeSubheading
       {Istanbul Technical University}{Istanbul, Turkey}
       {Bachelor of Engineering in Electronics and Communication;  GPA: 2.71/4.00}{Sep. 2011 -- Feb. 2016}
-  \resumeSubHeadingListEnd
+  \resumeSubHeadingListEnd\vspace{-10pt}
 
 
   %-----------EXPERIENCE-----------------
@@ -136,7 +136,7 @@
 	\resumeItem{Swarm Unmanned Aerial Vehicle}
 	  {
 		  Designed hardware and developed software for a UAV telemetry modem.
-			  Designed hardware and developed software for a RSSI Sensor
+			  Designed hardware and developed software for an RSSI Sensor
 			  which can measure strength of RF signals in specified band.
 		  }
       \resumeItemListEnd
@@ -160,12 +160,12 @@
 	  {\begin{itemize}
 		  \item Design and code software for UAV Modem (C++ Embedded Linux)
 		  \item Design and code device drivers under linux for FPGA blocks (Xilinx Zynq)
-		  \item Developed MCU based control hardware and software for a RF front-end hardware.
+		  \item Developed MCU based control hardware and software for an RF front-end hardware.
 		  \item Took Linux training from Nazim Koc (uCanLinux.com). Gained knowledge on u-boot, linux kernel, busybox compilation and building rootfs.
 	  \end{itemize}}
       \resumeItemListEnd
 
-  \resumeSubHeadingListEnd
+  \resumeSubHeadingListEnd\vspace{-10pt}
 
 
   %-----------PROJECTS-----------------
@@ -174,12 +174,12 @@
     \resumeSubItem{Real-time Video Compression Device}
 	{Coded software for a H264 video compression device.
 	It is based on IMX6 SoC and also uses real-time patched Linux and GStreamer.
-	Build the required device tree.}
+	Build the required device tree and userspace software that is based on GStreamer and also works with a custom transmission medium via a packetizer.}
     \resumeSubItem{Voice Transceiver Device}
 	  {A device capable of recording and sending voice at ISM band. 
-	  It is an embedded Linux system that utilizes Opus codec. 
-	  Designed and produced the hardware and coded necessary \textbf{ALSA SoC driver, RFIC device driver} and user space software.
-	  Build the required device tree.}
+	  It is an embedded Linux system that utilizes Opus codec and Alsa. 
+	  Designed and produced the hardware and coded necessary \textbf{ALSA SoC driver, SoC's DMA Driver, RFIC device driver} and user space software.
+	  Build the device tree and RootFS.}
     \resumeSubItem{Cansat Competition, Abilene TX}
 	  {Designed hardware and coded software according to requirements of the competition. It uses Cortex-M based MCU.}
     \resumeSubItem{Turksat 3USAT Cube Satellite, ITU}
