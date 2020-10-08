@@ -13,7 +13,7 @@
 \usepackage[usenames,dvipsnames]{color}
 \usepackage{verbatim}
 \usepackage{enumitem}
-\usepackage{hyperref}
+\usepackage[hidelinks]{hyperref}
 \usepackage{fancyhdr}
 
 
@@ -75,26 +75,27 @@
 %----------HEADING-----------------
 %TODO: fix speling errors
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-	\textbf{\href{http://web.itu.edu.tr/kilincmes/}{\Large Mesih Veysi Kılınç}} & \href{mailto:m.kilinc@gtu.edu.tr}{m.kilinc@gtu.edu.tr}\\
+	%\textbf{\href{http://web.itu.edu.tr/kilincmes/}{\Large Mesih Veysi Kılınç}} & \href{mailto:m.kilinc@gtu.edu.tr}{m.kilinc@gtu.edu.tr}\\
+	\textbf{\href{http://web.itu.edu.tr/kilincmes/}{\Large Mesih Veysi Kılınç}} & \href{mailto:mesihkilinc@gmail.com}{mesihkilinc@gmail.com}\\
 	\href{https://github.com/MesihK}{https://github.com/MesihK} & +90-543-864-2148 \\
 	%\textit{\small Turkish Nationality - Male - Married - Age 26}
 \end{tabular*} 
-\vspace{15pt}
+%\vspace{15pt}
 
-I am a Ph.D. Candidate in Computer Science. I do also hold a Bachelor degree in Electronics Engineering.  
-Interested in Linux Kernel and love doing embedded related works.
-Fascinated by programming and started to code during the first year of high school, doing it since then.
-I do have a fair bit of knowledge on \textit{Linux, C, C++, Python, Keras, Embedded Systems.}
-%\vspace{-10pt}
+%I am a Ph.D. Candidate in Computer Science. I do also hold a Bachelor degree in Electronics Engineering.  
+%Interested in Linux Kernel and love doing embedded related works.
+%Fascinated by programming and started to code during the first year of high school, doing it since then.
+%I do have a fair bit of knowledge on \textit{Linux, C, C++, Python, Keras, Embedded Systems.}
+\vspace{-5pt}
 
-\section{\href{https://www.google.com/search?q=mesih+site\%3Alkml.org}{Open Source Contributions - Linux Kernel}}
+\section{\href{https://www.google.com/search?q=mesih+site\%3Alkml.org}{{Open Source Contributions - Linux Kernel Patchsets}}}
 \resumeItemListStart
     {
-	    \item \href{https://lkml.org/lkml/2018/12/2/202}{\textbf{Applied:} initial support for "suniv" Allwinner new ARM9 SoC}
+	    \item \href{https://lkml.org/lkml/2018/12/2/202}{\textbf{Applied to Mainline:} initial support for "suniv" Allwinner new ARM9 SoC}
 	    \vspace{-5pt}\item \href{https://lkml.org/lkml/2018/12/2/259}{Add support for DMA and audio codec of F1C100s}
 	    \vspace{-5pt}\item \href{https://lkml.org/lkml/2019/2/11/131}{Timer \& SPI support for Allwinner suniv F1C100s}
     }
-\resumeItemListEnd %\vspace{-13pt}
+\resumeItemListEnd \vspace{-18pt}
 
 %\section{Technical Skills Summary}
 %\parbox{.60\linewidth}{
@@ -113,66 +114,63 @@ I do have a fair bit of knowledge on \textit{Linux, C, C++, Python, Keras, Embed
 %bildigin teknolojilerden bahset. qt gstreamer kicad 
 
 %-----------EDUCATION-----------------
-\section{Education}
+\section{{Education}}
   \resumeSubHeadingListStart
     \resumeSubheading
       {Gebze Technical University}{Kocaeli, Turkey}
       {Ph.D. in \textbf{Computer Science};  GPA: -/4.00}{July 2020 -- Present}
-    \resumeSubheading
+     \vspace{-10pt}\resumeSubheading
       {Gebze Technical University}{Kocaeli, Turkey}
       {Master of Science in \textbf{Computer Science};  GPA: 3.85/4.00}{Feb. 2018 -- July 2020}
-      \resumeItemListStart
-	\resumeItem{Courses}{Deep Learning, Symbolic Computation, Robot Control Theory,
+	  \resumeItemListStart\vspace{-5pt}
+	\resumeItem{Courses Taken}{Deep Learning, Symbolic Computation, Robot Control Theory,
 	Non-Linear Control Theory, Advanced Computer Architecture, Algorithm Analysis and Design,
-	Special Topcis on Algorithms}
-	\resumeItem{Scientific Preparation}{I also took 5 courses under
-		    scientific preparation to Computer Science which are:
-		    \textit{Object Oriented Programming, Data Structures,
-		    Operating Systems, Computer Architecture, Discrete Mathematics}} 
-      \resumeItemListEnd%\vspace{-10}
+	Special Topics on Algorithms}
+	\resumeItem{Scientific Preparation (Undergrad Level)}{Object Oriented Programming, Data Structures,
+		    Operating Systems, Computer Architecture, Discrete Mathematics} 
+      \resumeItemListEnd\vspace{-7pt}
     \resumeSubheading
       {Istanbul Technical University}{Istanbul, Turkey}
-      {Bachelor of Engineering in \textbf{Electronics and Communication};  GPA: 2.71/4.00}{Sep. 2011 -- Feb. 2016}
-  \resumeSubHeadingListEnd%\vspace{-10pt}
+      {Bachelor of Engineering in \textbf{Electronics and Communication}}{Sep. 2011 -- Feb. 2016}
+  \resumeSubHeadingListEnd\vspace{-18pt}
 
 
   %-----------EXPERIENCE-----------------
-\section{Experience}
+\section{{Experience}}
   \resumeSubHeadingListStart
 
     \resumeSubheading
       {Gebze Technical University}{Kocaeli, Turkey}
-      {Research Assistant}{Feb 2018 - Present}
+      {Research Assistant}{Feb. 2018 - Present}
       %telsizden bahsedilebilri
       
 
-	\vspace{2pt}
-	\textit{Captcha Solver:}
-	As a Deep Learning course project, I have developed a captcha solver in \textbf{Keras}.
-
-
-	\textit{Zenom Real-time Simulator:}
-	   I have improved \href{https://github.com/GTUKontrolRobotik/Zenom}{Zenom} simulation software to handle hardware targets.
+	%\vspace{2pt}
+	\textbf{Zenom Real-time Simulator:}
+	   Improved \href{https://github.com/GTUKontrolRobotik/Zenom}{Zenom} simulation software to handle hardware targets.
 	   Also developed \href{https://github.com/GTUKontrolRobotik/ZenomCore}{ZenomCore} for resource limited environments.
+	   \textbf{(Qt, Non-Linear Control)}
 
-
-	\textit{Haptic Delta Robot:}
-	  I have designed hardware to control a delta robot and developed a software
+	
+	\vspace{-2pt}\textbf{Haptic Delta Robot:}
+	  Designed hardware to control a delta robot and developed a software
 	  to experiment different control techniques on the device.
+	  \textbf{(MCU, Linear Control)}
 
 
-	\textit{Swarm Unmanned Aerial Vehicle:}
-	For the Swarm UAV project I designed both hardware and software of a telemetry
-	modem and an RSSI sensor which can measure the strength of RF signals in the specified band.
+	\vspace{-2pt}\textbf{Swarm Unmanned Aerial Vehicle:}
+	Designed both hardware and software of a telemetry
+	modem and an RSSI sensor capable of measuring the strength of RF signals in the specified band.
+	\textbf{(RFIC, Embedded)}
 
-    \resumeSubheading
+	\vspace{-5pt}\resumeSubheading
       {\href{https://www.otokar.com/en-us/Pages/default.aspx}{Otokar}}{Sakarya, Turkey}
-      {Software Engineer}{August 2016 - Feb 2018}
+      {Software Engineer}{August 2016 - Feb. 2018}
       %simulation tool'dan bahset
       %hsm'ye gecisi anlat
       
       
-	\vspace{2pt}
+	%\vspace{2pt}
 	\textbf{Border Surveillance and Reconnaissance Vehicle:}
 	At one of our software when we try to implement a new
 	feature, old ones started to broke. We had tremendous time pressure.
@@ -183,51 +181,54 @@ I do have a fair bit of knowledge on \textit{Linux, C, C++, Python, Keras, Embed
 	(\textbf{Embedded, C++, Qt, Yocto})
 
 
-	\textbf{CLI Simulator:}
+	\vspace{-4pt}\textbf{Programmable Socket Simulator:}
 	Because we used actual hardware it was very hard to try all code changes to make sure we didn’t break anything.
-	I decided to write a radar simulator to understand it correctly and fix bugs.
-	This paved the way to faster development and allowed us to hunt long-lasting bugs. 
+	Wrote a simulator to understand the devices in the vehicle better and fix bugs.
+	The Result was faster development and hunting long-lasting bugs. 
 	(\textbf{Python})
 	
 
-    \resumeSubheading
+	\vspace{-5pt}\resumeSubheading
       {\href{https://www.ctech.com.tr/}{CTech}}{Istanbul, Turkey}
       {Software Engineer}{July 2015 - August 2016}
       %muxer hikayesini anlat
       %linux driveri yazdigin zamandan bahset
 
 
-	\vspace{2pt}
+	%\vspace{2pt}
 	\textbf{UAV Modem:}
 	I met Linux with this project. Hardware was given to me to write a device driver. Surprised to
 	find that the driver already existed, and found that with a little tweaking it just started to work.
 	The more surprising thing was how powerful the shell was.
-	Without even writing a line of code it was so easy to connect little things to create a powerful program that utilizes my hardware 
+	Without even writing a line of code it was so easy to connect little things to create a powerful program that utilizes my hardware.
+	Later I wrote a device driver for a custom FPGA block.
 	(\textbf{Linux Kernel, Device Drivers})
 
 	  
-	\textbf{Linux Training:}
-	Took Linux training from Nazim Koc (\href{http://ucanlinux.com}{uCanLinux.com}). Gained knowledge on \textbf{U-Boot, Linux Kernel, Busybox compilation and building RootFS}.
+	\vspace{-5pt}\textbf{Linux Training:}
+	Took Linux training from Nazim Koc (\href{http://ucanlinux.com}{uCanLinux.com}). (\textbf{U-Boot, Linux Kernel, Busybox compilation and building RootFS})
 
 
 
-  \resumeSubHeadingListEnd%\vspace{-10pt}
+  \resumeSubHeadingListEnd\vspace{-10pt}
 
   %-----------PROJECTS-----------------
-\section{Major Projects}
+\vspace{-5pt}\section{Major Projects}
   \resumeSubHeadingListStart
 
-\item
-\textbf{Real-time Video Compression Device:}
-Coded software for an H264 video compression device.
-It is based on IMX6 SoC and also uses real-time patched Linux and GStreamer.
-Build the required device tree and userspace software that is based on GStreamer
-\textbf{(Gstreamer, Yocto)}
+%\item
+%\textbf{Real-time Video Compression Device:}
+%Coded software for an H264 video compression device.
+%It is based on IMX6 SoC and also uses real-time patched Linux and GStreamer.
+%Build the required device tree and userspace software that is based on GStreamer
+%\textbf{(Gstreamer, Yocto)}
 
 \item
-\textbf{Voice Transceiver Device:} An embedded Linux system that utilizes Opus codec and Alsa. 
-Designed the hardware and coded necessary \textbf{ALSA SoC driver, SoC's DMA Driver, RFIC device driver} and userspace software.
-Build the device tree and RootFS. \textbf{(Cross-compiling, Porting)}
+\textbf{Voice Transceiver Device:} An embedded Linux system with Opus codec and Alsa. 
+Designed the hardware, and coded necessary \textbf{ALSA SoC driver, SoC's DMA Driver, RFIC device driver} and userspace software.
+Build the device tree and RootFS.
+This was the project where I created several patchsets and sent them to the mainline Linux Kernel.
+\textbf{(Linux Driver Development, Cross-compiling, Porting)}
   \resumeSubHeadingListEnd%\vspace{-10pt}
 
   %-------------------------------------------
