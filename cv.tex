@@ -13,7 +13,7 @@
 \usepackage[usenames,dvipsnames]{color}
 \usepackage{verbatim}
 \usepackage{enumitem}
-\usepackage[hidelinks]{hyperref}
+\usepackage{hyperref}
 \usepackage{fancyhdr}
 
 
@@ -54,17 +54,17 @@
 	\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
 		\textbf{#1} & #2 \\
 		\textit{\small#3} & \textit{\small #4} \\
-	\end{tabular*}\vspace{-5pt}
+	\end{tabular*}
 }
 
-\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}}
 
 \renewcommand{\labelitemii}{$\circ$}
 
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-6pt}}
+\newcommand{\resumeItemListEnd}{\end{itemize}}
 
 %-------------------------------------------
 %%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -75,16 +75,17 @@
 %----------HEADING-----------------
 %TODO: fix speling errors
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-	\textbf{\href{http://web.itu.edu.tr/kilincmes/}{\Large Mesih Veysi Kılınç}} & \href{mailto:mesihkilinc@gmail.com}{mesihkilinc@gmail.com}\\
+	\textbf{\href{http://web.itu.edu.tr/kilincmes/}{\Large Mesih Veysi Kılınç}} & \href{mailto:m.kilinc@gtu.edu.tr}{m.kilinc@gtu.edu.tr}\\
 	\href{https://github.com/MesihK}{https://github.com/MesihK} & +90-543-864-2148 \\
 	%\textit{\small Turkish Nationality - Male - Married - Age 26}
 \end{tabular*} 
+\vspace{15pt}
 
-\vspace{5pt}
-I am an Electronic Engineer doing Masters in Computer Science.
+I am a Ph.D. Candidate in Computer Science. I do also hold a Bachelor degree in Electronics Engineering.  
 Interested in Linux Kernel and love doing embedded related works.
 Fascinated by programming and started to code during the first year of high school, doing it since then.
-\vspace{-10pt}
+I do have a fair bit of knowledge on \textit{Linux, C, C++, Python, Keras, Embedded Systems.}
+%\vspace{-10pt}
 
 \section{\href{https://www.google.com/search?q=mesih+site\%3Alkml.org}{Open Source Contributions - Linux Kernel}}
 \resumeItemListStart
@@ -93,7 +94,7 @@ Fascinated by programming and started to code during the first year of high scho
 	    \vspace{-5pt}\item \href{https://lkml.org/lkml/2018/12/2/259}{Add support for DMA and audio codec of F1C100s}
 	    \vspace{-5pt}\item \href{https://lkml.org/lkml/2019/2/11/131}{Timer \& SPI support for Allwinner suniv F1C100s}
     }
-\resumeItemListEnd \vspace{-13pt}
+\resumeItemListEnd %\vspace{-13pt}
 
 %\section{Technical Skills Summary}
 %\parbox{.60\linewidth}{
@@ -116,9 +117,15 @@ Fascinated by programming and started to code during the first year of high scho
   \resumeSubHeadingListStart
     \resumeSubheading
       {Gebze Technical University}{Kocaeli, Turkey}
-      {Master of Science in \textbf{Computer Science};  GPA: 4.00/4.00}{Feb. 2018 -- Present}
+      {Ph.D. in \textbf{Computer Science};  GPA: -/4.00}{July 2020 -- Present}
+    \resumeSubheading
+      {Gebze Technical University}{Kocaeli, Turkey}
+      {Master of Science in \textbf{Computer Science};  GPA: 3.85/4.00}{Feb. 2018 -- July 2020}
       \resumeItemListStart
-	\resumeItem{Scientific preparation}{Successfully finished 5 courses under
+	\resumeItem{Courses}{Deep Learning, Symbolic Computation, Robot Control Theory,
+	Non-Linear Control Theory, Advanced Computer Architecture, Algorithm Analysis and Design,
+	Special Topcis on Algorithms}
+	\resumeItem{Scientific Preparation}{I also took 5 courses under
 		    scientific preparation to Computer Science which are:
 		    \textit{Object Oriented Programming, Data Structures,
 		    Operating Systems, Computer Architecture, Discrete Mathematics}} 
@@ -126,7 +133,7 @@ Fascinated by programming and started to code during the first year of high scho
     \resumeSubheading
       {Istanbul Technical University}{Istanbul, Turkey}
       {Bachelor of Engineering in \textbf{Electronics and Communication};  GPA: 2.71/4.00}{Sep. 2011 -- Feb. 2016}
-  \resumeSubHeadingListEnd\vspace{-10pt}
+  \resumeSubHeadingListEnd%\vspace{-10pt}
 
 
   %-----------EXPERIENCE-----------------
@@ -140,14 +147,23 @@ Fascinated by programming and started to code during the first year of high scho
       
 
 	\vspace{2pt}
-	\textbf{Haptic Delta Robot:}
-	  Designed hardware to control a delta robot. Developed software
-	  to try control techniques on device.
+	\textit{Captcha Solver:}
+	As a Deep Learning course project, I have developed a captcha solver in \textbf{Keras}.
 
 
-	\textbf{Swarm Unmanned Aerial Vehicle:}
-	  Designed hardware and developed software for a UAV telemetry modem and
-	  an RSSI Sensor which can measure the strength of RF signals in the specified band.
+	\textit{Zenom Real-time Simulator:}
+	   I have improved \href{https://github.com/GTUKontrolRobotik/Zenom}{Zenom} simulation software to handle hardware targets.
+	   Also developed \href{https://github.com/GTUKontrolRobotik/ZenomCore}{ZenomCore} for resource limited environments.
+
+
+	\textit{Haptic Delta Robot:}
+	  I have designed hardware to control a delta robot and developed a software
+	  to experiment different control techniques on the device.
+
+
+	\textit{Swarm Unmanned Aerial Vehicle:}
+	For the Swarm UAV project I designed both hardware and software of a telemetry
+	modem and an RSSI sensor which can measure the strength of RF signals in the specified band.
 
     \resumeSubheading
       {\href{https://www.otokar.com/en-us/Pages/default.aspx}{Otokar}}{Sakarya, Turkey}
@@ -183,7 +199,7 @@ Fascinated by programming and started to code during the first year of high scho
 
 	\vspace{2pt}
 	\textbf{UAV Modem:}
-	I met Linux with this project. Hardware was given to me to write a device driver. Suprised to
+	I met Linux with this project. Hardware was given to me to write a device driver. Surprised to
 	find that the driver already existed, and found that with a little tweaking it just started to work.
 	The more surprising thing was how powerful the shell was.
 	Without even writing a line of code it was so easy to connect little things to create a powerful program that utilizes my hardware 
@@ -195,25 +211,24 @@ Fascinated by programming and started to code during the first year of high scho
 
 
 
-  \resumeSubHeadingListEnd\vspace{-10pt}
+  \resumeSubHeadingListEnd%\vspace{-10pt}
 
   %-----------PROJECTS-----------------
 \section{Major Projects}
   \resumeSubHeadingListStart
 
-
+\item
 \textbf{Real-time Video Compression Device:}
 Coded software for an H264 video compression device.
 It is based on IMX6 SoC and also uses real-time patched Linux and GStreamer.
 Build the required device tree and userspace software that is based on GStreamer
 \textbf{(Gstreamer, Yocto)}
 
-
-\newline
+\item
 \textbf{Voice Transceiver Device:} An embedded Linux system that utilizes Opus codec and Alsa. 
 Designed the hardware and coded necessary \textbf{ALSA SoC driver, SoC's DMA Driver, RFIC device driver} and userspace software.
 Build the device tree and RootFS. \textbf{(Cross-compiling, Porting)}
-  \resumeSubHeadingListEnd\vspace{-10pt}
+  \resumeSubHeadingListEnd%\vspace{-10pt}
 
   %-------------------------------------------
 \end{document}
